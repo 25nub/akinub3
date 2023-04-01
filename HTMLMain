@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DJ Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DJ Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to our DJ Website</h2>
+            <p>We offer the best DJ services for your events.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a team of experienced DJs who love music and entertaining people.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Wedding DJ</li>
+                <li>Birthday Party DJ</li>
+                <li>Corporate Event DJ</li>
+                <li>Club DJ</li>
+            </ul>
+            <p>Contact us to customize your DJ package.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 DJ Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+CSS:
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input, textarea {
+    margin-bottom:
