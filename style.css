@@ -1,7 +1,11 @@
+@font-face {
+  font-family: 'Codigra';
+  src: url('fonts/Codigra.ttf');
+}
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Codigra', sans-serif;
 	text-align: center;
 }
 
